@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(235, 179, 240);
+    font-family:fantasy;
+    color:rgb(127, 56, 142);
+}
+
+#name{
+    text-align: center;
+    font-size: 50px;
+    
+}
+ 
+.myLinks {
+    list-style-type: none;
+    text-align: center;
+    
+    
+}
+.myLinks li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+
+
