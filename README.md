@@ -1,2 +1,2 @@
 # Personal-website
-# This is my personal website as part of our block 9 assignments.
+# Adding comment into Readme for requirment purposes.
