@@ -1,12 +1,10 @@
 body{
-    
-    background-image:url("https://images.unsplash.com/photo-1519750783826-e2420f4d687f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-image:url("https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
     background-repeat:no-repeat;
     background-position:center;
     background-attachment: fixed;
-    background-size: 95%;
+    background-size: cover;
     font-family:comic sans ms;
-    color:rgba(0, 0, 0, 0.63);
     font-size: 20px;
     padding: 20px;
     margin:50px;
@@ -15,21 +13,18 @@ body{
 #name{
     text-align: center;
     font-size: 70px;
-    padding:0; 
 }
  
 .myLinks {
     list-style-type: none;
     text-align: center; 
-    padding: 0px;
     background-color:rgba(255, 252, 252, 0.33);
 }
 
 .myLinks li{
     display: inline-block;
     font-size: 25px;
-    padding: 50px;
-    text-align: center;    
+    padding: 50px;    
 }
 
 #quote{
@@ -44,21 +39,19 @@ body{
     text-align: center;
     text-decoration: none;
     margin: 10px;
-  }
+}
   
 .fa:hover {
       opacity: 0.7;
 }
   
-.fa-linkedin{
+.fa-linkedin {
     background: #007bb5;
-    color: white;
-    
-    
+    color: white;   
 }
+
 .fa-github{
     color: rgb(0, 0, 0);
-   
 }
 
 .footer{
@@ -80,14 +73,14 @@ body{
     margin-right:auto;
  }
  
- img{
-    margin-top: 15px;
-    border-radius: 8px;
-    border:5px solid white;
+img{
+    border-radius: 10px;
     height: 300px;
     display:block;
     margin-left: auto;
     margin-right: auto;
+    margin-top:15px;
+    margin-bottom:15px;
  }
 
  /*Contact info header*/
@@ -119,3 +112,20 @@ body{
     width:80px;
     align-self: center;
 }
+#contactMessage{
+   text-align: center;
+}
+#contactPic{
+    height: 350px;
+    width: 550px;
+    border-radius:8px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 1opx;
+}
+
